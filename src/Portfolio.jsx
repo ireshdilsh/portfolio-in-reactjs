@@ -14,7 +14,7 @@ export default function Portfolio() {
                 </div>
                 <div className="links">
                     <a href="#portfolio">Home</a>
-                    <a href="">About me</a>
+                    <a href="#aboutme">About me</a>
                     <a href="">My Expertise</a>
                     <a href="">My Showcases</a>
                     <a href="">Get in Touch</a>
@@ -78,6 +78,8 @@ export default function Portfolio() {
                     <p>Hello, There !</p>
                 </div>
             </section>
+
+            <section id="aboutme"></section>
 
         </div>
     )
