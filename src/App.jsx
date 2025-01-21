@@ -1,11 +1,10 @@
-import Landing from "./pages/Landing.jsx";
+import 'react'
+import Portfolio from "./Portfolio.jsx";
 
-function App() {
+export default function App() {
     return (
         <div>
-            <Landing/>
+            <Portfolio />
         </div>
     )
 }
-
-export default App
