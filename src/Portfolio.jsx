@@ -24,7 +24,7 @@ export default function Portfolio() {
                         backgroundColor: "#ffb742",
                         color:"#333",
                         fontSize: "14px",
-                        fontWeight: "500",
+                        fontWeight: 600,
                         height: "45px",
                         width:"120px",
                     }}>Hire Me</button>
@@ -41,6 +41,35 @@ export default function Portfolio() {
                 </div>
                 <div className="discription">
                     <p>I’m a dedicated Software Engineer committed to building scalable and efficient software solutions.</p>
+                </div>
+                <div className="btns-icons">
+                    <div className="showcase-btn">
+                    <button className="btn btn-warning" style={{
+                        backgroundColor: "#ffb742",
+                        color:"#333",
+                        fontSize: "14px",
+                        fontWeight: 600,
+                        height: "45px",
+                        width:"160px",
+                    }}>View Showcases</button>
+                    </div>
+                    <div className="contact-btn">
+                    <button className="btn btn-light" style={{
+                        backgroundColor: "#212529",
+                        border: "1px solid #fcfcfc",
+                        color:"#fcfcfc",
+                        fontSize: "14px",
+                        fontWeight: 600,
+                        height: "45px",
+                        width:"160px",
+                    }}>Get in Touch</button>
+                    </div>
+                    <div className="icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-facebook"></i>
+                    </div>
                 </div>
                 <div className="logo">
                     <img src={logo} alt="logo" />
