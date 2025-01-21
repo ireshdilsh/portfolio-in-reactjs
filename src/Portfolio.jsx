@@ -42,7 +42,7 @@ export default function Portfolio() {
                 <div className="discription">
                     <p>I’m a dedicated Software Engineer committed to building scalable and efficient software solutions.</p>
                 </div>
-                <div className="btns-icons">
+                <div className="btns">
                     <div className="showcase-btn">
                     <button className="btn btn-warning" style={{
                         backgroundColor: "#ffb742",
@@ -63,12 +63,6 @@ export default function Portfolio() {
                         height: "45px",
                         width:"160px",
                     }}>Get in Touch</button>
-                    </div>
-                    <div className="icons">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-linkedin"></i>
                     </div>
                 </div>
                 <div className="logo">
