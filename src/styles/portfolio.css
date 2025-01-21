@@ -14,4 +14,105 @@ body{
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 14px;
+    padding: 0px 120px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+nav .logo-name p{
+    color: #ffb742;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+nav .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav .links a{
+    text-decoration: none;
+    color: #fcfcfc;
+    position: relative;
+}
+
+nav .links a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 28px;
+    width: 100%;
+    height: 1.5px;
+    background: #fcfcfc;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+nav .links a:hover::after{
+    transform: scaleX(1);
+}
+
+#portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+#portfolio .title p ,#portfolio .title p span{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#portfolio .title hr{
+    border: none;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #fff;
+    width: 30px;
+    position: absolute;
+    left: 890px;
+    top: 200px;
+}
+#portfolio .title p span{
+    font-weight: 900;
+}
+
+#portfolio .sub-title p,#portfolio .sub-title p span{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+#portfolio .sub-title p span{
+    color: #ffb742;
+}
+
+#portfolio .discription p{
+    margin-top: -10px;
+}
+
+#portfolio .logo img{
+    overflow: hidden;
+    border-radius: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#portfolio .opacity-text{
+    font-size: 100px;
+    opacity: 0.06;
+    font-weight: 1000;
+    position: absolute;
+    left: 120px;
+    top: 680px;
 }
